@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Routes, Link, BrowserRouter} from 'react-router-dom';
 import ListProduto from './ProdutoComponent/ListProduto'; 
 import CreateProduto from './ProdutoComponent/CreateProduto';
 import EditProduto from './ProdutoComponent/EditProduto';
+
 //para executar este projeto baixe o projeto APIADS - 2023 no github
 
 
@@ -40,19 +40,7 @@ function App() {
             <Route path="/EditProduto" element={<EditProduto />}/>
             {/* Outras rotas */}
          </Routes>
-
-
-
-{/*}
-          <Routes>
-            <Route exact path="/CreateProduto" component={CreateProduto} />
-            <Route path="/edit/:id" component={EditProduto}/>
-            <Route path="/ListProduto" component={ListProduto}/>
-          </Routes>
-  */}
        </div>
-      
-
       </BrowserRouter>
     </div>
 
